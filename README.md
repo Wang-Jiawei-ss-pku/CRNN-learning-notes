@@ -1,6 +1,5 @@
-# CRNN-learning-notes
-I'll write down some tips and questions here.
-CRNN踩坑文档
+
+# CRNN踩坑文档
 首先我们学习了crnn的基本原理，此处略过不写。采用了一个github上的代码，进行理解和使用。
 	文中给出了一个demo，使用预训练模型进行识别测试。以下是项目的基本文件路径：
 环境：
@@ -15,9 +14,9 @@ CRNN踩坑文档
  
 需要把images后面的/去掉。
 正确代码是：
-python crnn/demo.py -i example/images -t example/table.txt -m model/exported_model.h5
+‘<python crnn/demo.py -i example/images -t example/table.txt -m model/exported_model.h5>’
 
-必须使用terminal运行！！！
+***必须使用terminal运行！！！***
 使用pycharm自带运行无法成功
 运行成功如图所示：
  
